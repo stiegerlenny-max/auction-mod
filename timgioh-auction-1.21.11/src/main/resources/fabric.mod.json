@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "timgioh_auction",
+  "version": "${version}",
+  "name": "timgioh auction",
+  "description": "Client-seitiges Auktions-Menü für HugoSMP: Item + Preis wählen, Timer starten, /pay-Zahlungen live anzeigen.",
+  "authors": ["timgioh"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.timgioh.auction.TimgiohAuctionClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
